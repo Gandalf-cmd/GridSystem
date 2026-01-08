@@ -1,12 +1,13 @@
 # GridSystem
-Unity Dual Grid System
-A little Tech Demo
-Note:
-It does NOT use RuleTiles directly, but does act similarly to them. It uses a custom script with hard-coded "rules" to control the placement of regular tiles.
+#### This is a demo of how I implemented a dual-grid tilemap system in Unity
 
-Compared to a normal RuleTiles:
--a maximum of only 16 tiles are required in the tileset, as opposed to 47
--rounded corners and not ambiguous align with the world grid
+Note:
+It does NOT use `RuleTiles` directly, but does act similarly to them. It uses a custom script with hard-coded "rules" to control the placement of regular tiles.
+
+Compared to a normal RuleTiles: 
+- reducing the number of tiles needed for visually complex terrains only 5-15 tiles as opposed to 47 
+- less tile data means faster loading and rendering
+- rounded corners and not ambiguous align with the world grid
 
 It is possible to get a dual-grid system working using custom RuleTiles too, however it did become quite convoluted when I tried
 
